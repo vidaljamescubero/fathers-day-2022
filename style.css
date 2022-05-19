@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+.fday-container {
+    overflow-x: hidden;
+}
+
+.owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;touch-action:manipulation;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{display:block;width:100%}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;color:inherit;border:none;padding:0!important;font:inherit}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{-ms-touch-action:pan-y;touch-action:pan-y;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{transition:height .5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}.owl-carousel .owl-item .owl-lazy:not([src]),.owl-carousel .owl-item .owl-lazy[src^=""]{max-height:0}.owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:transform .1s ease}.owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}
+
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-nav{margin-top:10px}.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px}.owl-theme .owl-nav [class*=owl-]:hover{background:#869791;color:#FFF;text-decoration:none}.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
+
+
 /* block 1 */
 
 .fday-block1 {
@@ -109,5 +118,639 @@
 
     .fday-block1-1-cta {
         top: 80%;
+    }
+}
+
+/* block 2 desktop */
+
+.fday-block2 {
+    height: 4605px;
+    width: 100%; 
+    border-bottom: 2px solid black;
+}
+
+.fday-block2-container {
+    width: 1440px;
+    height: 4494px;
+    margin: auto;
+    padding-top: 111px;
+    
+}
+
+.fday-block2-inside-container {
+    margin: auto;
+    height: 100%;
+    width: 1328px;
+    border: 2px solid black;
+    border-bottom: unset;
+}
+
+.fday-block2-1 {
+    width: 100%;
+    height: 718px;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+.fday-block2-1-1 {
+    position: absolute;
+    width: 179px;
+    height: 185px;
+    left: 145px;
+    top: -77px;
+}
+
+.fday-block2-1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.fday-block2-1-2 {
+    position: absolute;
+    width: 397px;
+    height: 175px;
+    left: 46px;
+    top: 142px;
+}
+
+.fday-block2-1-3 {
+    top: 40px;
+    left: 462px;
+}
+
+.fday-block2-1-cards {
+    position: absolute;
+    width: 401.27px;
+    height: 306px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fday-block2-1-cards-img {
+    width: 100%;
+    height: 234px;  
+}
+
+.fday-block2-1-cards-cta {
+    width: 100%;
+    height: 58px;
+    background: #ABB2A0;
+    border-radius: 4px;
+}
+
+.fday-block2-1-cards-cta a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.fday-block2-1-4 {
+    top: 40px;
+    left: 893px;
+}
+
+.fday-block2-1-5 {
+    top: 362px;
+    left: 34px;
+}
+
+.fday-block2-1-6 {
+    top: 362px;
+    left: 461px;
+}
+
+.fday-block2-1-7 {
+    top: 362px;
+    left: 893px;
+}
+
+.fday-block2-2 {
+    position: relative;
+    width: 100%;
+    height: 219px;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.fday-block2-2-1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid black;
+}
+
+.fday-block2-2-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid black;
+}
+
+.fday-block2-2-1 img {
+    width: 513px;
+    height: 115px;
+}
+
+.fday-block2-2-2 div {
+    font-family: arial, helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #474933;
+}
+
+.fday-block2-3 {
+    position: relative;
+    height: 718px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.fday-block2-3-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.fday-block2-3-quote {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fday-block2-3-image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fday-block2-3-dots {
+    position: absolute;
+    display: flex;
+    bottom: 33px;
+    left: calc(50% - 30px)
+}
+
+.fday-block2-3-dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background: #C4C4C4;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+.fday-block2-3-arrows {
+    position: absolute;
+    width: 100%;
+    bottom: 31px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fday-block2-3-arrow {
+    width: 21px;
+    height: 24px;
+    margin: 0 57px;
+    cursor: pointer;
+}
+
+.fday-block2-4 {
+    width: 100%;
+    height: 718px;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+.fday-block2-4 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.fday-block2-4-1 {
+    position: absolute;
+    width: 612px;
+    height: 608px;
+    top: 55px;
+    left: 54px;
+}
+
+.fday-block2-4-2 {
+    position: absolute;
+    width: 467px;
+    height: 47px;
+    top: 130px;
+    right: 100px;
+}
+
+.fday-block2-4-3 {
+    position: absolute;
+    width: 356px;
+    height: 53px;
+    top: 221px;
+    right: 155px;
+    text-align: center;
+}
+
+.fday-block2-4-4 {    
+    position: absolute;
+    width: 583px;
+    height: 198px;
+    top: 311px;
+    right: 42px;
+    font-family: arial, helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #474933;
+}
+
+.fday-block2-4-5 {
+    position: absolute;
+    width: 400.92px;
+    height: 58px;
+    top: 509px; 
+    right: 134px;
+    background: #ABB2A0;
+    border-radius: 4px;
+}
+
+
+.fday-block2-4-5 a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.fday-block2-5 {
+    position: relative;
+    height: 358px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.fday-block2-5 img{
+    height: 100%;
+    width: 100%;
+}
+
+.fday-block2-5-1 {
+    position: absolute;
+    width: 544px;
+    height: 106px;
+    top: 50px;
+    left: 401px;
+}
+
+.fday-block2-5-2 {
+    position: absolute;
+    width: 1004px;
+    height: 198px;
+    top: 184px;
+    left: 148px;
+    font-family: arial, helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #474933;
+}
+
+.fday-block2-6 {
+    position: relative;
+    width: 100%;
+    height: 585px;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.fday-box5-card {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.fday-box5-card-title {
+    width: 100%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #474933;
+    position: absolute;
+    top: 52px;
+}
+
+.fday-box5-card-text {
+    position: absolute;
+    width: 286px;
+    height: 58px;
+    top: 482px;
+    left: 35px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #474933;
+}
+
+.fday-box5-card-cta {
+    position: absolute;
+    width: 286px;
+    height: 58px;
+    top: 482px;
+    right: 45px;
+    background: #ABB2A0;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+.fday-box5-card-cta a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none !important;
+    transition: 0.3s ease-in-out;
+}
+
+.fday-block2-6-1 {
+    border-right: 1px solid black;
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block6+-1.jpg);
+    background-size: cover;   
+    transition: 0.3s ease-in-out;
+}
+
+.fday-block2-6-1:hover .fday-box5-card-title {
+    color: #000000;
+}
+
+.fday-block2-6-1:hover .fday-box5-card-text {
+    color: #000000;
+}
+
+.fday-block2-6-1:hover .fday-box5-card-cta {
+    background: #000000;
+}
+
+.fday-block2-6-1:hover .fday-box5-card-cta a{
+    color: #ffffff;
+}
+
+.fday-block2-6-1:hover {
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block6+-1-1.jpg);
+}
+
+.fday-block2-6-2 {
+    border-left: 1px solid black;
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block6+-2.jpg);
+    background-size: cover;   
+    transition: 0.3s ease-in-out;
+}
+
+.fday-block2-6-2:hover .fday-box5-card-title {
+    color: #000000;
+}
+
+.fday-block2-6-2:hover .fday-box5-card-text {
+    color: #000000;
+}
+
+.fday-block2-6-2:hover .fday-box5-card-cta {
+    background: #000000;
+}
+
+.fday-block2-6-2:hover .fday-box5-card-cta a{
+    color: #ffffff;
+}
+
+.fday-block2-6-2:hover {
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block6+-2-1.jpg);
+}
+
+.fday-block2-7 {
+    position: relative;
+    width: 100%;
+    height: 585px;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.fday-block2-7-1 {
+    border-right: 1px solid black;
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block7-1.jpg);
+    background-size: cover;   
+    transition: 0.3s ease-in-out;
+}
+
+.fday-block2-7-1:hover .fday-box5-card-title {
+    color: #000000;
+}
+
+.fday-block2-7-1:hover .fday-box5-card-text {
+    color: #000000;
+}
+
+.fday-block2-7-1:hover .fday-box5-card-cta {
+    background: #000000;
+}
+
+.fday-block2-7-1:hover .fday-box5-card-cta a{
+    color: #ffffff;
+}
+
+.fday-block2-7-1:hover {
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block7-1-1.jpg);
+}
+
+.fday-block2-7-2 {
+    border-left: 1px solid black;
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block7-2.jpg);
+    background-size: cover;   
+    transition: 0.3s ease-in-out;
+}
+
+.fday-block2-7-2:hover .fday-box5-card-title {
+    color: #000000;
+}
+
+.fday-block2-7-2:hover .fday-box5-card-text {
+    color: #000000;
+}
+
+.fday-block2-7-2:hover .fday-box5-card-cta {
+    background: #000000;
+}
+
+.fday-block2-7-2:hover .fday-box5-card-cta a{
+    color: #ffffff;
+}
+
+.fday-block2-7-2:hover {
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block7-2-1.jpg);
+}
+
+.fday-block2-8 {
+    position: relative;
+    width: 100%;
+    height: 593px;
+}
+
+.fday-block2-8 img {
+    width: 100%;
+    height: 100%;
+}
+
+.fday-block2-8-1 {
+    position: absolute;
+    width: 71px;
+    height: 47px;
+    top: 97px;
+    left: 299px;
+}
+
+.fday-block2-8-2 {
+    position: absolute;
+    width: 315px;
+    height: 103px;
+    top: 167px;
+    left: 187px;
+}
+
+.fday-block2-8-3 {
+    position: absolute;
+    width: 516px;
+    top: 293px;
+    left: 80px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #474933; 
+}
+
+.fday-block2-8-4 {
+    position: absolute;
+    width: 358px;
+    height: 58px;
+    background: #ABB2A0;
+    border-radius: 4px;
+    top: 426px;
+    left: 162px;
+}
+
+.fday-block2-8-4 a{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none !important;
+}
+
+.fday-block2-8-5 {
+    position: absolute;
+    width: 621px;
+    height: 490px;
+    top: 49px;
+    right: 48px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .fday-block2 {
+        border-bottom: unset;
+    }
+
+    .fday-block2-container {
+        border-bottom: 2px solid black;   
     }
 }
