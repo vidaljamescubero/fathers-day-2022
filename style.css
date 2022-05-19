@@ -121,6 +121,32 @@
     }
 }
 
+@media only screen and (max-width: 700px) {
+    .fday-block1-container {
+        height: calc(52.127vw + 442px);
+
+    }
+
+    .fday-block1-1 {
+        width: 100%;
+        height: 442px;
+    }
+
+    .fday-block1-1-header {
+        width: 295px;
+        height: 302px;
+        top: 29px;
+        left: calc( 50% - 147.5px)
+    }
+    
+    .fday-block1-2 {
+        width: 100%;
+        background: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block1-m.jpg);
+        height: 52.127vw;
+        background-size: contain;
+    }
+}
+
 /* block 2 desktop */
 
 .fday-block2 {
@@ -134,7 +160,7 @@
     height: 4494px;
     margin: auto;
     padding-top: 111px;
-    
+    overflow: hidden;
 }
 
 .fday-block2-inside-container {
@@ -753,4 +779,530 @@
     .fday-block2-container {
         border-bottom: 2px solid black;   
     }
+}
+
+@media only screen and (max-width: 700px) {
+    .fday-block2 {
+        display: none;
+    }
+
+}
+
+/* block 3 mobile */
+
+.fday-block3 {
+    display: none;
+}
+
+.fday-block3-1 {
+    height: 253px;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+.fday-block3-1 img {
+    position: absolute;
+    width: 334px;
+    height: 175px;
+    top: 46px;
+    left: calc(50% - 167px)
+}
+
+.fday-block3-2 {
+    width: 100%;
+    height: 662px;
+    border-bottom: 2px solid #000000;
+}
+
+.fday-block3-2-container {
+    height: 100%;
+    width: 375px;
+    position: relative;
+    margin: auto;
+}
+
+.fday-block3-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.fday-block3-2-card {
+    width: 163px;
+    height: 193px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+}
+
+.fday-block3-2-card-image {
+    width: 100%;
+    height: 145px;
+}
+
+.fday-block3-2-card-cta {
+    width: 100%;
+    height: 42px;
+    background: #474933;
+    border-radius: 4px;
+}
+
+.fday-block3-2-card-cta a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.fday-block3-2-1 {
+    position: absolute;
+    width: 163px;
+    height: 168px;
+    top: 25px;
+    left: 18px;
+}
+
+.fday-block3-2-2 {
+    top: 17px;
+    right: 18px;
+}
+
+.fday-block3-2-3 {
+    top: 230px;
+    left: 18px;
+}
+
+.fday-block3-2-4 {
+    top: 230px;
+    right: 18px;
+}
+
+.fday-block3-2-5 {
+    top: 440px;
+    left: 18px;
+}
+
+.fday-block3-2-6 {
+    top: 440px;
+    right: 18px;
+}
+
+.fday-block3-3 {
+    position: relative;
+    width: 100%;
+    height: 324px;
+    border-bottom: 2px solid black;
+}
+
+.fday-block3-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.fday-block3-3-1 {
+    position: absolute;
+    top: 73px;
+    width: 375px;
+    height: 115px;
+    left: calc(50% - 187.5px)
+}
+
+.fday-block3-3-2 {
+    position: absolute;
+    width: 337px;
+    height: 61px;
+    font-family: arial, helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #474933;
+    top: 225px;
+    left: calc(50% - 168.5px)
+}
+
+.fday-block3-4 {
+    width: 100%;
+    height: 792px;
+    border-bottom: 2px solid black;
+}
+
+.fday-block3-4 img {
+    height: 100%;
+    width: 100%;
+}
+
+.fday-block3-4-container {
+    margin: auto;
+    width: 375px;
+    height: 100%;
+    position: relative;
+}
+
+.fday-block3-4-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.fday-block3-4-image {
+    width: 336px;
+    height: 336px;
+    position: absolute;
+    top: 19px;
+    left: calc(50% - 168px);
+}
+
+.fday-block3-4-arrows {
+    position: absolute;
+    width: 100%;
+    bottom: 31px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fday-block3-4-arrow {
+    width: 21px;
+    height: 24px;
+    margin: 0 57px;
+    cursor: pointer;
+}
+
+.fday-block3-4-dots {
+    position: absolute;
+    display: flex;
+    bottom: 33px;
+    left: calc(50% - 30px);
+}
+
+.fday-block3-4-dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background: #C4C4C4;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+.fday-block3-5 {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    border-bottom: 2px solid black;
+}
+
+.fday-block3-5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.fday-block3-5-1 {
+    position: absolute;
+    width: 350px;
+    height: 347.71px;
+    left: calc(50% - 175px);
+    top: 50px;
+}
+
+.fday-block3-5-2 {
+    position: absolute;
+    width: 369px;
+    height: 120px;
+    left: calc(50% - 184.5px);
+    top: 450px
+}
+
+.fday-block3-5-3 {
+    position: absolute;
+    width: 309px;
+    height: 46px;
+    left: calc(50% - 154.5px);
+    top: 591px;
+}
+
+.fday-block3-5-4 {  
+    position: absolute;
+    width: 309px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #474933;
+    left: calc(50% - 154.5px);
+    top: 670px;
+}
+
+.fday-block3-5-5 {
+    position: absolute;
+    width: 300px;
+    height: 58px;
+    background: #ABB2A0;
+    border-radius: 4px;
+    left: calc(50% - 150px);
+    top: 893px
+}
+
+.fday-block3-5-5 a {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 17px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.2em;
+   text-transform: uppercase;
+   color: #000000;
+   text-decoration: none !important;
+}
+
+.fday-block3-6 {
+    width: 100%;
+    height: 2045px;
+    border-bottom: 2px solid black;
+}
+
+.fday-block3-6 img {
+    height: 100%;
+    width: 100%;
+}
+
+.fday-block3-6-1 {
+    width: 300px;
+    height: 169px;
+    margin: 40px auto ;
+}
+
+.fday-block3-6-2 {    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #474933;
+    width: 320px;
+    margin: 20px auto 40px auto;
+}
+
+.fday-block3-6-3 {
+    width: 375px;
+    height: 1536px;
+    margin: auto;
+}
+
+.fday-block3-6-3-card {
+    position: relative;
+    width: 375px;
+    height: 384px;
+    margin: 10px 0;
+}
+
+.fday-block3-6-3-card-title {   
+    width: 100%;
+    position: absolute;
+    top: 28px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #474933;
+}
+
+.fday-block3-6-3-card-body {   
+    position: absolute;
+    width: 161px;
+    height: 40px;
+    top: 316px;
+    left: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #474933;
+    justify-content: center;
+
+}
+
+.fday-block3-6-3-card-cta {
+    position: absolute;
+    width: 161px;
+    height: 40px;
+    background: #ABB2A0;
+    border-radius: 4px;
+    top: 316px;
+    right: 20px;
+}
+
+.fday-block3-6-3-card-cta a {   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none !important;
+
+}
+
+.fday-block3-6-3-1 {
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block6+-1.jpg);
+    background-size: cover;
+}
+
+.fday-block3-6-3-2 {
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block6+-2.jpg);
+    background-size: cover;
+}
+
+.fday-block3-6-3-3 {
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block7-1.jpg);
+    background-size: cover;
+}
+
+.fday-block3-6-3-4  {
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/06-01+Fathers+Day+Landing+Page/block7-2.jpg);
+    background-size: cover;
+}
+
+.fday-block3-7 {
+    width: 100%;
+    position: relative;
+    height: 750px;
+    border-bottom: 2px solid black;
+}
+
+.fday-block3-7 img{
+    width: 100%;
+    height: 100%;
+}
+
+.fday-block3-7-1 {
+    position: absolute;
+    width: 71px;
+    height: 47px;
+    left: calc( 50% - 35.5px);
+    top: 50px;
+}
+
+.fday-block3-7-2 {   
+     position: absolute;
+    width: 315px;
+    height: 103px;
+    left: calc(50% - 157.5px);
+    top: 126px;
+}
+
+.fday-block3-7-3 {    
+    position: absolute;
+    width: 310px;
+    left: calc(50% - 155px);
+    top: 258px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #474933;
+}
+
+.fday-block3-7-4 {
+    position: absolute;
+    width: 300px;
+    height: 58px;
+    background: #ABB2A0;
+    border-radius: 4px;
+    left: calc(50% - 150px);
+    top: 374px;
+}
+
+.fday-block3-7-4 a {    
+    width: 100%;
+    height: 100%;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.fday-block3-7-5 {    
+    position: absolute;
+    width: 320px;
+    height: 252.5px;
+    top: 453px;
+    left: calc(50% - 160px);
+}
+
+@media only screen and (max-width: 700px) {
+    .fday-block3 {
+        display: block;
+    }
+
+    
 }
