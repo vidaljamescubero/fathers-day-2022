@@ -52,14 +52,14 @@ let quoteNum = 1;
 
 let quotefunction= function() {
     if (quoteNum === 1) {
-        document.querySelector('.fday-block2-3-card-1').style.cssText = `opacity: 1`
+        document.querySelector('.fday-block2-3-card-1').style.cssText = `opacity: 1; z-index: 2`
         document.querySelector('.fday-block2-3-card-2').style.cssText = ` `
         document.querySelector('.fday-block2-3-card-3').style.cssText = ` `
         document.querySelector('.fday-block2-3-dot-1').style.cssText = `background: #000`
         document.querySelector('.fday-block2-3-dot-2').style.cssText = `background: #C4C4C4`
         document.querySelector('.fday-block2-3-dot-3').style.cssText = `background: #C4C4C4`
         
-        document.querySelector('.fday-block3-4-card-1').style.cssText = `opacity: 1`
+        document.querySelector('.fday-block3-4-card-1').style.cssText = `opacity: 1; z-index: 2`
         document.querySelector('.fday-block3-4-card-2').style.cssText = ` `
         document.querySelector('.fday-block3-4-card-3').style.cssText = ` `
         document.querySelector('.fday-block3-4-dot-1').style.cssText = `background: #000`
@@ -67,14 +67,14 @@ let quotefunction= function() {
         document.querySelector('.fday-block3-4-dot-3').style.cssText = `background: #C4C4C4`
     } else if (quoteNum === 2) {
         document.querySelector('.fday-block2-3-card-1').style.cssText = ` `
-        document.querySelector('.fday-block2-3-card-2').style.cssText = `opacity: 1`
+        document.querySelector('.fday-block2-3-card-2').style.cssText = `opacity: 1; z-index: 2`
         document.querySelector('.fday-block2-3-card-3').style.cssText = ` `
         document.querySelector('.fday-block2-3-dot-1').style.cssText = `background: #C4C4C4`
         document.querySelector('.fday-block2-3-dot-2').style.cssText = `background: #000`
         document.querySelector('.fday-block2-3-dot-3').style.cssText = `background: #C4C4C4`
 
         document.querySelector('.fday-block3-4-card-1').style.cssText = ` `
-        document.querySelector('.fday-block3-4-card-2').style.cssText = `opacity: 1`
+        document.querySelector('.fday-block3-4-card-2').style.cssText = `opacity: 1; z-index: 2`
         document.querySelector('.fday-block3-4-card-3').style.cssText = ` `
         document.querySelector('.fday-block3-4-dot-1').style.cssText = `background: #C4C4C4`
         document.querySelector('.fday-block3-4-dot-2').style.cssText = `background: #000`
@@ -82,14 +82,14 @@ let quotefunction= function() {
     } else if (quoteNum === 3) {
         document.querySelector('.fday-block2-3-card-1').style.cssText = ` `
         document.querySelector('.fday-block2-3-card-2').style.cssText = ` `
-        document.querySelector('.fday-block2-3-card-3').style.cssText = `opacity: 1`
+        document.querySelector('.fday-block2-3-card-3').style.cssText = `opacity: 1; z-index: 2`
         document.querySelector('.fday-block2-3-dot-1').style.cssText = `background: #C4C4C4`
         document.querySelector('.fday-block2-3-dot-2').style.cssText = `background: #C4C4C4`
         document.querySelector('.fday-block2-3-dot-3').style.cssText = `background: #000`
 
         document.querySelector('.fday-block3-4-card-1').style.cssText = ` `
         document.querySelector('.fday-block3-4-card-2').style.cssText = ` `
-        document.querySelector('.fday-block3-4-card-3').style.cssText = `opacity: 1`
+        document.querySelector('.fday-block3-4-card-3').style.cssText = `opacity: 1; z-index: 2`
         document.querySelector('.fday-block3-4-dot-1').style.cssText = `background: #C4C4C4`
         document.querySelector('.fday-block3-4-dot-2').style.cssText = `background: #C4C4C4`
         document.querySelector('.fday-block3-4-dot-3').style.cssText = `background: #000`
@@ -173,6 +173,35 @@ document.querySelector('.fday-block3-4-arrows-right').addEventListener('click', 
 // owl carousel
 
 $.getScript( "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js", function(data, textStatus, jqxhr) {
-    console.log("hi")
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        dots: false,
+        responsive:{
+            0:{
+                items:1,
+                dots: true,
+            },
+            500:{
+                items:2
+            },
+            720:{
+                items:3
+            },
+            950:{
+                items:4
+            },
+            1200:{
+                items:5
+            },
+            1400:{
+                items:6
+            },
+            1700:{
+                items:7
+            }
+            
+        }
+    })
    
 });
